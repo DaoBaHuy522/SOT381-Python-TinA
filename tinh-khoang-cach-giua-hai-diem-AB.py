@@ -1,0 +1,10 @@
+x1=int(input("nhap x1= "))
+y1=int(input("nhap y1= "))
+x2=int(input("nhap y2= "))
+y2=int(input("nhap y2= "))
+print("toa do A (",x1,",",y1,")")
+print("toa do B (",x2,",",y2,")")
+b=(x1-x2)
+c=(y1-y2)
+import math
+print("khoang cach hai diem A va B",print(math.sqrt(b**2+c**2)))
