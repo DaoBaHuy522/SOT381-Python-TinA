@@ -1,8 +1,8 @@
 #viết chương trình bậc 2 hoàn chỉnh
 print("a**2*x+b*x+c=0 ,(a!=0)")
-a=int(input("nhap a"))
-b=int(input("nhap b"))
-c=int(input("nhap c"))
+a=int(input("nhap a= "))
+b=int(input("nhap b= "))
+c=int(input("nhap c== "))
 print(a,"**2*x+",b,"*x",c)
 if a!=0:
     delta=a**2+4*a*c
