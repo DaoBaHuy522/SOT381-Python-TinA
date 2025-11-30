@@ -5,7 +5,7 @@ x2=int(input("nhap x2= "))
 y2=int(input("nhap y2= "))
 print("toa do B( ",x2," ; ",y2," )")
 x3=int(input("nhap x3= "))
-y3=int(input("nhap y3= "))
+y3=int(input("nhap y3="))
 print("toa do C( ",x3," ; ",y3," )")
 a=x1-x2
 b=y1-y2
