@@ -6,7 +6,7 @@ for i in range(n):
     d = float(input(f"nhập số con số thứ {i+1} là: "))
     ds.append(d)
 
-#thực hiện chương trình 
+#thực hiện chương trình
 w = float(input("nhập con số bạn cần tìm: "))
 coko = w in ds
 print(coko)
