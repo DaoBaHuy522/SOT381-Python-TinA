@@ -13,15 +13,15 @@ for k in range(n):
     DS=ds[k].upper()
     print(DS)
 
-
+print("tìm ra bài trong danh sách có chữ yêu")
 for l in range(n):
     hat=ds[l]
     if hat.find("yêu") != -1:
         print(hat)
-
+        
+print("tìm tư dai nhất")
 baii=ds[0]
 so_tuu=len(baii.split())
-print(so_tuu)
 for f in range(1,n):
     bai=ds[f]
     so_tu= len(bai.split())
